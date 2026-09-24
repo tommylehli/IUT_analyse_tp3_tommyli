@@ -1,0 +1,17 @@
+- CD_livre: Les CDs et les livres sont des Articles, donc on fait 
+l'héritage qui montre que les classes CDs et livres font parties de la class Articles.
+La classe Client a un association simple avec Article où les clients peuvent acheter 0-1 d'article 
+et l'article peut être acheter par 0-n clients.
+
+- Vol: C'est une association bidirectionnelle où les vols peuvent être dans 0-n compagnie aérienne et les 
+compagnies aériennes doivent avoir 1-n vols disponibles.
+
+- Marriage: Deux personnes peuvent être mariés soit à personne ou une seule personne.
+
+- Document: Document et Impriment sont des classes avec une association bidirectionnelle et leurs propres 
+fonctions et attributs.
+
+- Fichiers: Puisque la suppression d'un dossier implique la suppression des fichiers, il y a une composition où le 
+dossier est le composé et les fichiers sont les composants. Un dossier peut avoir 0-n fichiers.
+
+- Murs: Un mur est une partie d'une pièce, donc c'est une agrégation. Un mur peut appartenir à 1-2 pièces.    
